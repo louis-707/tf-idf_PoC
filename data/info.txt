@@ -1,0 +1,15 @@
+links to patents of csv
+
+1) https://worldwide.espacenet.com/patent/search?q=pn%3DEP2811259A1
+    - normal chromatic confocal measurement assembly
+    - CPC: G01B9/02036 by using chromatic effects, e.g. a wavelength dependent focal point
+
+2) https://worldwide.espacenet.com/patent/search?q=pn%3DUS10260941B2
+    - precitec free beam chromatic confocal with symetrical pinholes
+
+3) https://worldwide.espacenet.com/patent/search?q=pn%3DUS11231270B2
+    - another omron chromatic confocal with the addition of light blocking element before the spectrometer
+
+4) https://worldwide.espacenet.com/patent/search?q=pn%3DWO0114837A1
+    - Michelson interferometer with retroreflector for calibration purpose
+    -> this application is based on a whole other tehcnology than 1-3
