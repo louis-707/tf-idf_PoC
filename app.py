@@ -6,8 +6,8 @@ from src.preprocessing import preprocess_json
 from src.similarity import compute_query_similarity
 from src.vectorizer import build_vectorizer
 
-preprocess_json('../data-json/raw.json')
-df = pd.read_json('../data-json/processed.json')
+preprocess_json('data-json/raw.json')
+df = pd.read_json('data-json/processed.json')
 df = df.dropna(subset=['processed'])
 df = df[df['processed'].str.strip().astype(bool)]
 print(df[['abstract', 'processed']].head())
