@@ -1,7 +1,7 @@
 run.py
 
 data/
-data-json/
+
 .streamlit/
 .idea/
 .devcontainer/
