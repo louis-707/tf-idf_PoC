@@ -11,16 +11,17 @@ def compute_similarity(tfidf_matrix, ids):
 def compute_query_similarity(query, vectorizer, tfidf_matrix, ids, processed):
     '''
 
-    :param query: custom user querry, will be compared to tfidf_matrix
-    :param vectorizer: important to use same vectorizer for qerry
+    :param query: custom user query, will be compared to tfidf_matrix
+    :param vectorizer: important to use same vectorizer for qery
     :param tfidf_matrix:
     :param ids:
     :param processed:
-    :return: pd data frame
+    :return: pd data-json frame
     '''
     cleaned_query = preprocess(query) # important to treat equally to patents used for similarity matrix
     query_vec = vectorizer.transform([cleaned_query])
-    similarities = cosine_similarity(query_vec, tfidf_matrix).flatten()  # flatten returns a copy of the array collapsed into one dimension (numpy function) for better organized data frame
+    sim= 100*cosine_similarity(query_vec, tfidf_matrix)
+    similarities = sim.flatten()
 
 
 
