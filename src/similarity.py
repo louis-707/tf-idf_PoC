@@ -20,7 +20,7 @@ def compute_query_similarity(query, vectorizer, tfidf_matrix, ids, processed):
     '''
     cleaned_query = preprocess(query) # important to treat equally to patents used for similarity matrix
     query_vec = vectorizer.transform([cleaned_query])
-    sim= 100*cosine_similarity(query_vec, tfidf_matrix)
+    sim= cosine_similarity(query_vec, tfidf_matrix)
     similarities = sim.flatten()
 
 
