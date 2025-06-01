@@ -6,7 +6,7 @@ data-json/
 .idea/
 .devcontainer/
 
-# Distribution / packaging
+# Distribution
 .Python
 build/
 develop-eggs/

@@ -25,3 +25,4 @@ if st.button("find simmilar patents"):
         st.write(results)
     else:
         st.warning("emtpy query")
+        #
