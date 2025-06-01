@@ -1,6 +1,5 @@
 import streamlit as st
-import joblib
-import scipy.sparse
+
 import pandas as pd
 
 from src.preprocessing import preprocess_json
