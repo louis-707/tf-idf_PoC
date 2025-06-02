@@ -25,4 +25,4 @@ def compute_query_similarity(query, vectorizer, tfidf_matrix, ids, processed):
 
 
 
-    return pd.DataFrame({'id': ids,'similarity': similarities,'text': processed }).sort_values(by='similarity', ascending=False)
+    return pd.DataFrame({'id': ids,'similarity': similarities,'abstract': processed }).sort_values(by='similarity', ascending=False)

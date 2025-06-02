@@ -21,7 +21,7 @@ def preprocess_csv(file):
 
         df['processed'] = df['abstract'].apply(preprocess) # for the first tests only the abstract is processed,
         # later also the whole description and Claims, also back/ forward citations can be useful to determine scope and breadth of invention
-        #https://ftp.zew.de/pub/zew-docs/div/innokonf/6bsampatziedonis.pdf
+        # https://ftp.zew.de/pub/zew-docs/div/innokonf/6bsampatziedonis.pdf
 
         output_path = os.path.join(os.path.dirname(file), 'processed.csv')
         df.to_csv(output_path, index=False)
