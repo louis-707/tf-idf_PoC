@@ -20,7 +20,6 @@ query = st.text_area("Enter a search query (e.g. patent abstract or description)
                      "Includes patents of CPC-Categories: G01b9/02036 , G01b9/02044 , G01b9/02042 , G01b2210/50. \n"+
                      "Measuring instruments characterised by the use of optical techniques \n"+
                      "by using chromatic effects, e.g. a wavelength dependent focal point, \n"+
-                     "by using chromatic effects, e.g. a wavelength dependent focal point, \n"+
                      "confocal imaging, \n"+
                      "and using chromatic effects to achieve wavelength-dependent depth resolution.")
 
